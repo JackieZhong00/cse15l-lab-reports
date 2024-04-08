@@ -6,7 +6,7 @@ jackiezhong@Jackies-MBP ~ % pwd
 jackiezhong@Jackies-MBP ~ % cd 
 jackiezhong@Jackies-MBP ~ %
 ```
-When you use `cd` with no arguments, it doesn't invoke any changes in directory because no argument was passed. Thus, you remain in the same directory. 
+When you use `cd` with no arguments, it brings you back to the home directory. Since /Users/jackiezhong is my home directory, nothing changes.
 The result is not an error, it's the result of not changing directories.
 
 
@@ -44,8 +44,7 @@ jackiezhong@Jackies-MBP ~ % ls
 Applications    Downloads    Music      cse15l_lab0
 Library         Pictures     Projects   Desktop
 ```
-Using `ls` with no arguments list us directories and files nested within the directory we're currently in. The result is not an error. This is the correct and most
-popular way to use `ls`.
+Using `ls` with no arguments list us directories and files nested within the directory we're currently in. The result is not an error. This is the correct and most popular way to use `ls`.
 
 
 2. Using `ls` with path to a directory as argument
