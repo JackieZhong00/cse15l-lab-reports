@@ -71,7 +71,7 @@ within a file, the terminal just outputs the path provided.
 
 
 
-`cat` command
+# `cat` command
 1. Using `cat` with no arguments
 ```
 jackiezhong@Jackies-MBP ~ % pwd
