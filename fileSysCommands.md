@@ -55,7 +55,7 @@ cse15l_extras lab0.txt
 jackiezhong@Jackies-MBP / %
 
 ```
-Using `ls` in this way prints the contents within that directory. This is not an error as ls is able to take in directory paths as arguments to list the contents within those directories.
+Using `ls` in this way prints the contents within that directory. This is not an error as `ls` is able to take in directory paths as arguments to list the contents within those directories.
 
 3. Using `ls` with a path to a file as argument
 ```
