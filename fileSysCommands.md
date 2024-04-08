@@ -5,7 +5,6 @@ jackiezhong@Jackies-MBP ~ % pwd
 /Users/jackiezhong
 jackiezhong@Jackies-MBP ~ % cd 
 jackiezhong@Jackies-MBP ~ %
-
 ```
 When you use `cd` with no arguments, it doesn't invoke any changes in directory because no argument was passed. Thus, you remain in the same directory. 
 The result is not an error, it's the result of not changing directories.
@@ -16,7 +15,6 @@ jackiezhong@Jackies-MBP / % pwd
 /
 jackiezhong@Jackies-MBP / % cd Users/jackiezhong/cse15l_lab0/cse15l_extras
 jackiezhong@Jackies-MBP cse15l_extras %
-
 ```
 Here, I'm starting at the root directory, which is why `pwd` prints `/` as my directory. Providing a path to the cse15l_extras directory, `cd` places me in that directory. 
 Thus, we see in our last line that our working directory is now cse15l_extras. The output is not an error.
@@ -47,13 +45,11 @@ popular way to use `ls`.
 
 2. Using `ls` with path to a directory as argument
 ```
-
 jackiezhong@Jackies-MBP / % pwd
 /
 jackiezhong@Jackies-MBP / % ls /Users/jackiezhong/cse15l_lab0
 cse15l_extras lab0.txt
 jackiezhong@Jackies-MBP / %
-
 ```
 Using `ls` in this way prints the contents within that directory. This is not an error as `ls` is able to take in directory paths as arguments to list the contents within those directories.
 
@@ -66,7 +62,7 @@ jackiezhong@Jackies-MBP / % ls /Users/jackiezhong/cse15l_lab0/lab0.txt
 jackiezhong@Jackies-MBP / %
 ```
 Using `ls` in this way just prints out the file path that you used as argument. The command is supposed to be used on directories only, to list files and directories nested within 
-the directory you're in. The output is not an error, ls attempts to list everything within the path, assuming it's a directory. Since directories and files can't be directly created
+the directory you're in. The output is not an error, `ls` attempts to list everything within the path, assuming it's a directory. Since directories and files can't be directly created
 within a file, the terminal just outputs the path provided.
 
 
@@ -89,6 +85,7 @@ jackiezhong@Jackies-MBP ~ % pwd
 /Users/jackiezhong
 jackiezhong@Jackies-MBP ~ % cat cse15l_lab0
 cat: cse15l_lab0: Is a directory
+jackiezhong@Jackies-MBP ~ %
 ```
 The command's purpose is to print out contents of a file, which is why when supplied a directory as the argument, it gives us the error that the argument is a directory.
 
@@ -101,7 +98,6 @@ jackiezhong@Jackies-MBP ~ % pwd
 jackiezhong@Jackies-MBP ~ % cat cse15l_lab0/lab0.txt
 hello cse15l, this is my lab 0 file
 jackiezhong@Jackies-MBP ~ %
-
 ```   
 By specifying a file path, `cat` prints out the contents of that file onto the terminal. The result is not an error and is how `cat` should be used.
 
