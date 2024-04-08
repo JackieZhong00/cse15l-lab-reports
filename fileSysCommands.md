@@ -44,8 +44,6 @@ jackiezhong@Jackies-MBP ~ % ls
 Applications    Downloads    Music      cse15l_lab0
 Library         Pictures     Projects   Desktop
 ```
-
-
 Using `ls` with no arguments list us directories and files nested within the directory we're currently in. The result is not an error. This is the correct and most
 popular way to use `ls`.
 
